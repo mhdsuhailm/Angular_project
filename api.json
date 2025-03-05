@@ -1,0 +1,142 @@
+{
+"services": [
+    {
+      "id": 1,
+      "title": "Branding and Communication",
+      "description": "We help brands connect and engage by finding a unique voice in the market. From strategy and positioning to logo and graphic design to advertising campaigns, we produce identity and communications materials that build credibility, as well as sales.",
+      "image": "branding.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Inbound &  Content Marketing",
+      "description": "We have a team of inbound-certified content experts, writers and designers who know your market and can develop an inbound marketing strategy that will help you attract visitors to your website, convert them into leads and then into customers.",
+      "image": "inbound.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Film &  Webinar",
+      "description": "Our talent pool includes musicians, song writers and video technicians who can create unique soundtracks for your corporate films or put together a YouTube video that showcases your products or company. We also help you create, host and promote webinars and podcasts or live streaming programs.",
+      "image": "films.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Digital Marketing",
+      "description": "WE can help tie your online and offline branding together with digital and social media services, pay per click (PPC), SEO/SEM or Google Adwords.  At UP we work with all social media networks, and can help you with both your paid activities and organic presence. ",
+      "image": "digital.jpg"
+    },
+    {
+      "id": 5,
+      "title": "ECommerce & Websites",
+      "description": "We provide full website design and development services, including UX design and ecommerce. Our team can set up CMS systems, including HubSpot, WordPress, Drupal and more.  ",
+      "image": "ecommerce.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Market Analysis",
+      "description": "UP starts all major marketing, branding, advertising and creative service projects with a thorough briefing process and market research. This phase might include customer research or a START ME UP workshop.  UP LAB also offers in-depth analysis and market insights to help you understand your customers. ",
+      "image": "market.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "E-Commerce Website for Tech Gadgets",
+      "description": "Developed an e-commerce platform for a tech retailer, featuring secure payment integration, personalized recommendations, and a user-friendly shopping experience.",
+      "status": "active",
+      "startDate": "2023-01-15",
+      "endDate": "2023-04-30",
+      "teamSize": 10,
+      "image": "x.jpg"
+    },
+    {
+      "id": 2,
+      "name": "SEO Optimization for Healthcare Startup",
+      "description": "Implemented SEO best practices for a healthcare platform, improving organic traffic by 150% within six months.",
+      "status": "completed",
+      "startDate": "2022-06-01",
+      "endDate": "2022-11-30",
+      "teamSize": 8,
+      "image": "y.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Social Media Campaign for Fashion Brand",
+      "description": "Executed a social media marketing campaign for a fashion brand, increasing engagement and sales conversions through influencer collaborations.",
+      "status": "inactive",
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-15",
+      "teamSize": 12,
+      "image": "z.jpg"
+    },
+    {
+      "id": 4,
+      "name": "AI Chatbot for Customer Support",
+      "description": "Developed an AI-powered chatbot to automate customer service queries, reducing response time by 40%.",
+      "status": "active",
+      "startDate": "2023-05-10",
+      "endDate": "2023-09-30",
+      "teamSize": 15,
+      "image": "a.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Corporate Branding for Fintech Startup",
+      "description": "Designed a complete branding package, including logo, business cards, and marketing materials, establishing a strong brand identity.",
+      "status": "completed",
+      "startDate": "2021-11-01",
+      "endDate": "2022-02-28",
+      "teamSize": 9,
+      "image": "b.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Mobile App Development for Food Delivery",
+      "description": "Built a cross-platform mobile app for a food delivery service, integrating GPS tracking and real-time order updates.",
+      "status": "inactive",
+      "startDate": "2022-03-15",
+      "endDate": "2022-07-30",
+      "teamSize": 7,
+      "image": "c.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Digital Marketing Strategy for SaaS Company",
+      "description": "Created and executed a digital marketing plan, increasing website traffic and subscription conversions through paid ads and content marketing.",
+      "status": "active",
+      "startDate": "2023-06-01",
+      "endDate": "2023-12-31",
+      "teamSize": 14,
+      "image": "d.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Webinar Series on Cybersecurity",
+      "description": "Hosted a series of educational webinars on cybersecurity, featuring industry experts and live Q&A sessions.",
+      "status": "completed",
+      "startDate": "2021-10-01",
+      "endDate": "2021-12-10",
+      "teamSize": 11,
+      "image": "e.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Market Research for Smart Home Devices",
+      "description": "Conducted in-depth market research on smart home technologies, analyzing consumer preferences and industry trends.",
+      "status": "inactive",
+      "startDate": "2020-08-01",
+      "endDate": "2020-12-30",
+      "teamSize": 6,
+      "image": "f.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Cloud Migration for Enterprise Solutions",
+      "description": "Migrated enterprise applications to a cloud-based infrastructure, ensuring scalability and security.",
+      "status": "active",
+      "startDate": "2023-02-01",
+      "endDate": "2023-08-30",
+      "teamSize": 13,
+      "image": "g.jpg"
+    }
+  ]
+}

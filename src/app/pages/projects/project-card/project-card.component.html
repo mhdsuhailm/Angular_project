@@ -1,0 +1,23 @@
+<div class="card mb-3">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img
+        src="http://localhost:8090/{{ project.image }}"
+        class="img-fluid rounded-start"
+        alt="{{ project.name }}"
+      />
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ project.name }}</h5>
+        <!-- <p class="card-text">{{ project.image }}</p> -->
+        <p class="card-text">{{ project.status }}</p>
+        <p class="card-text">{{ project.startDate }}</p>
+        <p class="card-text">{{ project.endDate }}</p>
+        <p class="card-text">{{ project.teamsize }}</p>
+
+        <p class="card-text">{{ project.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
