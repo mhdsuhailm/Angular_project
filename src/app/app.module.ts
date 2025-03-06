@@ -12,6 +12,9 @@ import { ContactItemComponent } from './pages/contacts/contact-item/contact-item
 import { HttpClientModule } from '@angular/common/http';
 import { ServiceCardComponent } from './pages/home/service-card/service-card.component';
 import { ProjectCardComponent } from './pages/projects/project-card/project-card.component';
+import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
+import { FormsModule } from '@angular/forms';
+import { LoginComponent } from './common/login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +26,15 @@ import { ProjectCardComponent } from './pages/projects/project-card/project-card
     MenuBarComponent,
     ContactItemComponent,
     ServiceCardComponent,
-    ProjectCardComponent
+    ProjectCardComponent,
+    EnquiryFormComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

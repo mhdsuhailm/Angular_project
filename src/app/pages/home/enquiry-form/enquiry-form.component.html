@@ -1,0 +1,70 @@
+<!-- <div class="container mt-4">
+  <div class="card shadow-lg p-4 bg-light">
+    <h2 class="text-center text-primary mb-4">Enquiry Form</h2>
+
+    <form (ngSubmit)="submitForm()" class="needs-validation" novalidate>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" class="form-control" [(ngModel)]="name" name="name" required placeholder="Enter your name" />
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" [(ngModel)]="email" name="email" required placeholder="Enter your email" />
+      </div>
+
+      <div class="mb-3">
+        <label for="serviceType" class="form-label">Service Type</label>
+        <select id="serviceType" class="form-select" [(ngModel)]="serviceType" name="serviceType" required>
+          <option value="" disabled selected>Select a service</option>
+          <option *ngFor="let service of serviceTypes" [value]="service">{{ service }}</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" class="form-control" [(ngModel)]="message" name="message" rows="4" required placeholder="Write your message"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">Submit</button>
+    </form>
+  </div>
+</div> -->
+<div class="container mt-4">
+  <div class="card shadow-lg p-4">
+    <h2 class="text-center mb-4">Enquiry Form</h2>
+
+    <form (ngSubmit)="submitForm()" class="needs-validation" novalidate>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" class="form-control" [(ngModel)]="name" name="name" required placeholder="Enter your name" />
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" class="form-control" [(ngModel)]="email" name="email" required placeholder="Enter your email" />
+      </div>
+
+      <div class="mb-3">
+        <label for="serviceType" class="form-label">Service Type</label>
+        <select id="serviceType" class="form-select" [(ngModel)]="serviceType" name="serviceType" required>
+          <option value="" disabled selected>Select a service</option>
+          <option *ngFor="let service of serviceTypes" [value]="service">{{ service }}</option>
+        </select>
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" class="form-control" [(ngModel)]="message" name="message" rows="4" required placeholder="Write your message"></textarea>
+      </div>
+
+      <div class="alert alert-danger" *ngIf="this.errors.length>=1">
+    <ul>
+        <li *ngFor="let error of errors">{{error}}</li>
+    </ul>
+</div>
+
+      <button type="submit" class="btn w-100">Submit</button>
+    </form>
+  </div>
+</div>

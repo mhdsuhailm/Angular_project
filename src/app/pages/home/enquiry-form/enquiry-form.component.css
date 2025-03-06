@@ -1,0 +1,73 @@
+/* .container {
+  max-width: 500px;
+}
+
+.card {
+  border-radius: 10px;
+  background: linear-gradient(135deg, #f8f9fa, #e3f2fd);
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.form-control, .form-select {
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  padding: 10px;
+}
+
+button {
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+} */
+ .container {
+  max-width: 500px;
+}
+
+.card {
+  border-radius: 10px;
+  background: #111; /* Dark background */
+  color: white; /* White text */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  font-weight: bold;
+  color: #fff; /* White title */
+}
+
+.form-control, .form-select {
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 10px;
+  background: #222; /* Dark input fields */
+  color: white; /* White text */
+}
+
+.form-control::placeholder,
+.form-select {
+  color: #bbb; /* Lighter placeholder */
+}
+
+button {
+  font-size: 18px;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  border: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+

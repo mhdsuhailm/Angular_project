@@ -1,5 +1,5 @@
 {
-"services": [
+  "services": [
     {
       "id": 1,
       "title": "Branding and Communication",
@@ -137,6 +137,15 @@
       "endDate": "2023-08-30",
       "teamSize": 13,
       "image": "g.jpg"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "5751",
+      "name": "jhon",
+      "email": "jhon@gmail.com",
+      "serviceType": "Web Development",
+      "message": "hello, i am jhon"
     }
   ]
 }
