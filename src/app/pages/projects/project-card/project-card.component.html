@@ -12,9 +12,9 @@
         <h5 class="card-title">{{ project.name }}</h5>
         <!-- <p class="card-text">{{ project.image }}</p> -->
         <p class="card-text">{{ project.status }}</p>
-        <p class="card-text">{{ project.startDate }}</p>
-        <p class="card-text">{{ project.endDate }}</p>
-        <p class="card-text">{{ project.teamsize }}</p>
+        <p class="card-text">{{ project.startDate | date: 'MM, MMMM yyyy' }}</p>
+        <p class="card-text">{{ project.endDate | date: 'MM, MMMM yyyy' }}</p>
+        <p class="card-text">{{ project.teamSize }}</p>
 
         <p class="card-text">{{ project.description }}</p>
       </div>

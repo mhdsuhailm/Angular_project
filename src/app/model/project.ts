@@ -5,6 +5,6 @@ export interface project {
   image: string;
   startDate:string;
   endDate:string;
-  teamsize:string;
+  teamSize:number;
   status:string;
 }

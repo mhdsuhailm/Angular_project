@@ -1,7 +1,58 @@
-
+<!-- 
 <h3>Our Projects</h3>
 
-<app-project-card
-  *ngFor="let project of projectslist"
-  [project]="project"
-></app-project-card>
+
+<div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;margin-left: 20px;">
+  <div>
+    <label style="font-weight: bold;">Min Team Size:</label>
+    <input type="number" [(ngModel)]="minTeamSize"
+      style="width: 80px; padding: 5px; border-radius: 5px; border: 1px solid #ccc; text-align: center;">
+  </div>
+
+  <div>
+    <label style="font-weight: bold;">Max Team Size:</label>
+    <input type="number" [(ngModel)]="maxTeamSize"
+      style="width: 80px; padding: 5px; border-radius: 5px; border: 1px solid #ccc; text-align: center;">
+  </div>
+</div>
+<label for="statusFilter">Filter by Status:</label>
+<select [(ngModel)]="selectedStatus">
+  <option value="All">All</option>
+  <option value="active">Active</option>
+  <option value="inactive">Inactive</option>
+  <option value="completed">Completed</option>
+</select>
+<div *ngFor="let project of projectslist | teamSize: minTeamSize : maxTeamSize | projectStatus:selectedStatus">
+  <app-project-card [project]="project"></app-project-card>
+</div> -->
+<h3 class="text-center my-3 title">Our Projects</h3>
+
+<div class="container-fluid">
+  <div class="row justify-content-center mb-3">
+    <div class="col-md-2 col-6">
+      <label class="form-label">Min Team Size:</label>
+      <input type="number" [(ngModel)]="minTeamSize" class="form-control small-input">
+    </div>
+
+    <div class="col-md-2 col-6">
+      <label class="form-label">Max Team Size:</label>
+      <input type="number" [(ngModel)]="maxTeamSize" class="form-control small-input">
+    </div>
+
+    <div class="col-md-3 col-12 mt-2 mt-md-0">
+      <label class="form-label">Filter by Status:</label>
+      <select [(ngModel)]="selectedStatus" class="form-select small-input">
+        <option value="All">All</option>
+        <option value="active">Active</option>
+        <option value="inactive">Inactive</option>
+        <option value="completed">Completed</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-12 mb-3" *ngFor="let project of projectslist | teamSize: minTeamSize : maxTeamSize | projectStatus:selectedStatus">
+      <app-project-card [project]="project"></app-project-card>
+    </div>
+  </div>
+</div>

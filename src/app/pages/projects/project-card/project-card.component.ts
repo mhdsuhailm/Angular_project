@@ -7,6 +7,6 @@ import { project } from '../../../model/project';
   styleUrl: './project-card.component.css'
 })
 export class ProjectCardComponent {
-      @Input() project: project = { id: '', name: '', description: '',status:'',startDate:'',endDate:'',teamsize:'', image: '' };
+      @Input() project: project = { id: '', name: '', description: '',status:'',startDate:'',endDate:'',teamSize:0, image: '' };
     
 }
